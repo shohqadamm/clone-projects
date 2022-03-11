@@ -1,13 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Clone Projects | by Shohqadam Ergashev</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@200;400;800&family=Poppins:wght@300;500&family=ZCOOL+QingKe+HuangYou&display=swap");
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: "ZCOOL QingKe HuangYou", cursive;
+      }
+      a {
+        text-decoration: none;
+        color: #2b303a;
+      }
+      ul {
+        list-style-type: none;
+      }
+      .container {
+        max-width: 1200px;
+        margin: auto;
+      }
+      header {
+        text-align: center;
+        /* background: #EEE5E9; */
+        padding: 10px 0;
+      }
+      header h1 {
+        margin-bottom: 10px;
+      }
+
+      main ul li {
+        /* border-bottom: 1px solid #000; */
+        /* font-size: 3rem; */
+        /* padding: 10px 0;
+        margin: 20px 0; */
+        display: block;
+      }
+      main ul li a {
+        border-bottom: 1px solid #2b303a;
+        font-size: 3rem;
+        padding: 10px 0;
+        margin: 20px 0;
+        display: block;
+        position: relative;
+        color: #000;
+      }
+      main ul li a:after {
+        content: attr(data-text);
+        position: absolute;
+        top: 10px;
+        left: 0;
+        color: transparent;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #2b303a;
+        transition: 0.5s ease;
+      }
+
+      main ul li a:before {
+        content: attr(data-text);
+        position: absolute;
+        top: 10px;
+        left: 0;
+        color: transparent;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #2b303a;
+        transition: 0.5s ease;
+      }
+      main ul li a:hover:before {
+        transform: translate(-5px, -5px);
+      }
+      main ul li a:hover:after {
+        transform: translate(-10px, -10px);
+      }
+      /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  html{
+    font-size: 14px;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  html{
+    font-size: 14px;
+  }
+  
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  html{
+    font-size: 16px;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  html{
+    font-size: 18px;
+  }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  html{
+    font-size: 20px;
+  }
+}
+    </style>
   </head>
   <body>
-    <h1>Hello</h1>
+    <header>
+      <div class="container">
+        <h1>Clone Projects by Shohqadam</h1>
+        <p>
+          Here list of Projects created by
+          <a href="https://github.com/shohqadamm">@shohqadamm</a>
+        </p>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <ul>
+          <li>
+            <a data-text="Starbucks.com" href="#" target="blank"
+              >Starbucks.com</a
+            >
+          </li>
+          <li>
+            <a data-text="Starbucks.com" href="#" target="blank"
+              >Starbucks.com</a
+            >
+          </li>
+          <li>
+            <a data-text="Starbucks.com" href="#" target="blank"
+              >Starbucks.com</a
+            >
+          </li>
+          <li>
+            <a data-text="Starbucks.com" href="#" target="blank"
+              >Starbucks.com</a
+            >
+          </li>
+          <li>
+            <a data-text="Starbucks.com" href="#" target="blank"
+              >Starbucks.com</a
+            >
+          </li>
+        </ul>
+      </div>
+    </main>
   </body>
 </html>

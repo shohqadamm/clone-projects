@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap');
-* {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&family=ZCOOL+QingKe+HuangYou&display=swap');* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -14,6 +13,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
+  font-family: 'Poppins', sans-serif;
 }
 a{
     text-decoration: none;
