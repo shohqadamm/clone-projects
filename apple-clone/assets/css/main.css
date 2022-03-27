@@ -25,6 +25,14 @@ a, a:link, a:visited {
 ul{
     list-style-type: none;
 }
+hr{
+   border-top:1px solid #b3b3b3;
+}
+.text-primary{
+    font-size: .65rem;
+    color:#b3b3b3;
+    padding-bottom: .8rem;
+}
 
 .navbar{
     background: #333;
@@ -74,4 +82,54 @@ ul{
 }
 .unicef-inner .unicef-brand img{
     width: 120px;
+}
+
+
+
+
+
+
+
+
+
+
+/* ? Footer*/
+.footer{
+    background: #f5f5f7;
+}
+.footer-container{
+    max-width: 980px;
+    margin: auto;
+} 
+.footer-upper{
+    padding: 17px 0 11px 0;
+}
+
+a.footer-link{
+    color: rgb(66, 66, 69);
+    font-size: .6rem;
+}
+.footer-link:hover{
+    text-decoration: underline;
+}
+.footer-middle{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-middle-list{
+    padding: 20px 0;
+}
+.footer-list-title{
+    font-weight: 700;
+    font-size: .65rem;
+}
+.footer-lower-inner{
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    justify-content: space-between;
+}
+.footer-lower-list{
+    display: flex;
+    gap:10px
 }
